@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Porfolio</title>
     <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <div class="name">
-            <h1>ACE HA</h1>
-            <p class="position">Robot Technian at Sanctuary AI</p>
+<body class="container-fluid" style="background-color:#505659">
+    <header class="container-fluid">
+        <div class="name container-fluid">
+            <h1 style="color: white;">ACE HA</h1>
+            <p class="position">Mechatronics Engineer</p>
             <table>
                 <tr>
                     <td class="contact">(778)-751-6667</td>
@@ -22,29 +28,22 @@
             <img src="asset/Profile_Pic.jpeg" alt="Profile Pic">
         </div>
     </header>
-    <div class="summary">
-        <h1>SUMMARY OF QUALIFICATION</h1>
+    <div class="summary container">
+        <h1 style="color: white;">SUMMARY OF QUALIFICATION</h1>
         <ul>
-            <li>Proficient in configuring various robotic systems, including ABB, SCARA, CRS, FANUC,
-                DELTA, and H-BOT Gantry.</li>
-            <li>Skilled in programming languages such as C, Python, and Mathlab, with experience in
-                Assembly Language.</li>
-            <li>Experienced in utilizing software tools like SolidWorks, Mathlab, Simulink, LTSpice, Code
-                Composer Studio, Visual Studio, Studio5000, Robot Studio, Microsoft Excel, STM32 cube, and
-                Arduino IDE.</li>
-            <li>Familiar with hardware components including PLCs and microcontrollers such as MSP430,
-                STM32, ESP8266, ESP32, Arduino, and Raspberry Pi 4.</li>
+            <li>Proficient in configuring various robotic systems, including ABB, SCARA, CRS, FANUC, DELTA, and H-BOT Gantry.</li>
+            <li>Skilled in programming languages such as C, Python, and Mathlab, with experience in Assembly Language.</li>
+            <li>Experienced in utilizing software tools like SolidWorks, Mathlab, Simulink, LTSpice, Code Composer Studio, Visual Studio, Studio5000, Robot Studio, Microsoft Excel, STM32 cube, and Arduino IDE, On Shape, Elmo, Jira, Confluence, RLS Ecosight.</li>
+            <li>Familiar with hardware components including PLCs and microcontrollers such as MSP430, STM32, ESP8266, ESP32, Arduino, and Raspberry Pi 4.</li>
             <li>Proficient in signal communication protocols including I2C, UART, SPI, RS485, and RS232.</li>
-            <li>Experienced in data analysis techniques, including Machine Learning and Deep Learning in
-                Python.</li>
-            <li>Knowledgeable in control systems principles, encompassing Control Theory, Motion Control,
-                Velocity Control, and kinematics motion.</li>
-            <li> Well-versed in Analog Electronics, Circuit Analysis, Electrical Design, Mechanical Design,
-                Computer Vision, and OpenCV.</li>
+            <li>Experienced in data analysis techniques, including Machine Learning and Deep Learning in Python.</li>
+            <li>Knowledgeable in control systems principles, encompassing Control Theory, Motion Control, Velocity Control, and kinematics motion.</li>
+            <li>Well-versed in Analog Electronics, Circuit Analysis, Electrical Design, Mechanical Design, Computer Vision, and OpenCV..</li>
+
         </ul>
     </div>
-    <div class="project">
-        <h1>PROJECTS</h1>
+    <div class="project container">
+        <h1 style="color: white;">PROJECTS</h1>
         
         <div class="slideshow-container">
             <div class="slide">
@@ -69,12 +68,6 @@
                     <img src="asset/p2.jpeg" alt="proj pic">
                 </div>
             </div>
-          
-            <div class="slide">
-            <h2>IoT RC Car</h2>
-            <p>IoT RC Car Designed an IoT-enabled RC Car Robot utilizing ESP8266 for IoT remote control,
-                an integrated HCSR04 sensor for distance measurement, and obstacle avoidance.</p>
-            </div>
 
             <div class="slide">
                 <div class = "proj">
@@ -89,15 +82,25 @@
             </div>
 
             <div class="slide">
-                <h2>Smart Plant Guardian</h2>
-                <p>Designed an automated plant monitoring system with MSP430, including Modbus RTU RS485
-                    communication for temperature and moisture sensors, and ADC for soil moisture</p>
+                <div class = "proj">
+                    <h2>IoT RC Car</h2>
+                    <p>IoT RC Car Designed an IoT-enabled RC Car Robot utilizing ESP8266 for IoT remote control,
+                        an integrated HCSR04 sensor for distance measurement, and obstacle avoidance.</p>
+                </div>
+                <div class="proj_photo">
+                    <img src="asset/p5.jpg" alt="proj pic">
+                </div>
             </div>
     
             <div class="slide">
-                <h2>ROBT 3351 Automation Equipment Project</h2>
-                <p>Orchestrated the successful design and construction of a Voltage Regulator and Motor Drive
-                    H-Bridge, driving a DC motor with an incorporated electrical brake.</p>
+                <div class = "proj">
+                    <h2>ROBT 3351 Automation Equipment Project</h2>
+                    <p>Orchestrated the successful design and construction of a Voltage Regulator and Motor Drive
+                        H-Bridge, driving a DC motor with an incorporated electrical brake.</p>
+                </div>
+                <div class="proj_photo">
+                    <img src="asset/p6.jpg" alt="proj pic">
+                </div>
             </div>
     
             <div class="slide">
@@ -117,8 +120,8 @@
         </div>
 
     </div>
-    <div class="robot">
-        <h1>ROBOT OPERATION</h1>
+    <div class="robot container">
+        <h1 style="color: white;">ROBOT OPERATION</h1>
         <div class="slideshow-container2">
             <div class="slide2">
                 <div class = "proj">
@@ -175,9 +178,9 @@
         </div>
     </div>
     <div class="education">
-        <h1>EDUCATION</h1>
-        <a href="https://www.bcit.ca/programs/mechatronics-and-robotics-diploma-full-time-7340diplt/">Mechatronics and Robotics Engineering Diploma </a> <p>British Columbia Institution of Technology | Burnaby</p>
-        <p>Completion: May, 2024</p>
+        <h1 style="color: white;">EDUCATION</h1>
+        <p>Mechatronics and Robotics Engineering Diploma </a> </p>
+        <p>British Columbia Institution of Technology | Burnaby</p>
     </div>
 
     <script>
