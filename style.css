@@ -2,7 +2,7 @@ body{
     background-color: #6543ae;
 }
 h1{
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ top: 50%;
 transform: translateY(-50%);
 cursor: pointer;
 padding: 16px;
-background-color: #0c5d7a;
+background-color: #2b2e2f;
 color: white;
 font-weight: bold;
 border: none;
@@ -143,7 +143,7 @@ top: 50%;
 transform: translateY(-50%);
 cursor: pointer;
 padding: 16px;
-background-color: #0c5d7a;
+background-color: #2b2e2f;
 color: white;
 font-weight: bold;
 border: none;
